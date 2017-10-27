@@ -15,7 +15,7 @@ int ackermann(int m, int n) {
 int main() {
   for (int i=0; i<6; ++i) {
     for (int j=0; j<6; ++j) {
-      std::cout << "Acckerman of ackermann(" << i << " " << j << ") is: " << ackermann(i, j) << '\n';
+      std::cout << "ackermann(" << i << " " << j << ") is: " << ackermann(i, j) << '\n';
     }
   }
   return 0;
